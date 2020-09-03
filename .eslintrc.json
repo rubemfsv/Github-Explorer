@@ -40,7 +40,7 @@
         ]
       }
     ],
-    "import/prefer-default-export": "off",
+    "import/prefer-default-export": "on",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -52,7 +52,9 @@
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "typescript": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
     }
   }
 }
